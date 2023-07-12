@@ -1,9 +1,13 @@
+import ExpenseItem from './components/ExpenseItem';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h2>let's get started!</h2>
+        <ExpenseItem></ExpenseItem>
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
           GitHub Codespaces <span className="heart">♥️</span> React
